@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="Term" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$ClipboardContent$" />
+      <option name="PARAMETERS" value="$ClipboardContent$" />
+      <option name="WORKING_DIRECTORY" value="$ClipboardContent$" />
+    </exec>
+  </tool>
+</toolSet>

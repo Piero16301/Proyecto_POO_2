@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/piero/Downloads/Proyecto_POO_2/Juego.cpp" "C:/Users/piero/Downloads/Proyecto_POO_2/cmake-build-debug/CMakeFiles/Proyecto_POO_2.dir/Juego.cpp.obj"
-  "C:/Users/piero/Downloads/Proyecto_POO_2/Partida.cpp" "C:/Users/piero/Downloads/Proyecto_POO_2/cmake-build-debug/CMakeFiles/Proyecto_POO_2.dir/Partida.cpp.obj"
-  "C:/Users/piero/Downloads/Proyecto_POO_2/Ranking.cpp" "C:/Users/piero/Downloads/Proyecto_POO_2/cmake-build-debug/CMakeFiles/Proyecto_POO_2.dir/Ranking.cpp.obj"
-  "C:/Users/piero/Downloads/Proyecto_POO_2/main.cpp" "C:/Users/piero/Downloads/Proyecto_POO_2/cmake-build-debug/CMakeFiles/Proyecto_POO_2.dir/main.cpp.obj"
+  "/home/piero/Documents/Proyecto_POO_2/Juego.cpp" "/home/piero/Documents/Proyecto_POO_2/cmake-build-debug/CMakeFiles/Proyecto_POO_2.dir/Juego.cpp.o"
+  "/home/piero/Documents/Proyecto_POO_2/Partida.cpp" "/home/piero/Documents/Proyecto_POO_2/cmake-build-debug/CMakeFiles/Proyecto_POO_2.dir/Partida.cpp.o"
+  "/home/piero/Documents/Proyecto_POO_2/Ranking.cpp" "/home/piero/Documents/Proyecto_POO_2/cmake-build-debug/CMakeFiles/Proyecto_POO_2.dir/Ranking.cpp.o"
+  "/home/piero/Documents/Proyecto_POO_2/main.cpp" "/home/piero/Documents/Proyecto_POO_2/cmake-build-debug/CMakeFiles/Proyecto_POO_2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

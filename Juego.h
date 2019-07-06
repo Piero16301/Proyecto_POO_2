@@ -8,7 +8,10 @@
 #include <cstdio>
 #include <cmath>
 
+#include "MiMatriz.h"
+
 using namespace std;
+using TipoDato = int;
 
 class Partida;
 

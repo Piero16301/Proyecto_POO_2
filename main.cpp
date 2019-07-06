@@ -4,6 +4,7 @@
 #include <fstream>
 #include "Juego.h"
 #include "Partida.h"
+#include "MiMatriz.h"
 
 using namespace std;
 
