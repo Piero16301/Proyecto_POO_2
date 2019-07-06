@@ -1,6 +1,8 @@
 # 2048: El videojuego hecho en consola
 > Proyecto POO II
 
+![](2048_console.png)
+
 ## Paradigmas:
 * Programacion orientada a objetos
 * Programacion generica
@@ -26,5 +28,3 @@
 1. https://juego2048.es/
 
 ![](2048.jpg)
-
-![](2048_console.png)
