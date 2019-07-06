@@ -24,4 +24,5 @@ Q -> Salir del juego
 
 ## Referencia:
 1. https://juego2048.es/
+
 ![](2048.jpg)
