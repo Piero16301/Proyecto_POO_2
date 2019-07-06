@@ -1,0 +1,6 @@
+
+		 **********RANKING DE JUGADORES**********
+
+		 PUNTAJE 		 NOMBRE 		 ESTADO
+
+		   52		     ANGEL			 PERDEDOR

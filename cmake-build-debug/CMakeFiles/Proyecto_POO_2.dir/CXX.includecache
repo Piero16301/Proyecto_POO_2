@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/piero/Documents/Proyecto_POO_2/Juego.cpp
-Partida.h
-/home/piero/Documents/Proyecto_POO_2/Partida.h
-Juego.h
-/home/piero/Documents/Proyecto_POO_2/Juego.h
-
 /home/piero/Documents/Proyecto_POO_2/Juego.h
 iostream
 -
@@ -38,31 +32,11 @@ time.h
 iomanip
 -
 
-/home/piero/Documents/Proyecto_POO_2/Partida.cpp
-iomanip
--
-Partida.h
-/home/piero/Documents/Proyecto_POO_2/Partida.h
-Ranking.h
-/home/piero/Documents/Proyecto_POO_2/Ranking.h
-
 /home/piero/Documents/Proyecto_POO_2/Partida.h
 Juego.h
 /home/piero/Documents/Proyecto_POO_2/Juego.h
 fstream
 -
-
-/home/piero/Documents/Proyecto_POO_2/Ranking.cpp
-Ranking.h
-/home/piero/Documents/Proyecto_POO_2/Ranking.h
-
-/home/piero/Documents/Proyecto_POO_2/Ranking.h
-iostream
--
-fstream
--
-Partida.h
-/home/piero/Documents/Proyecto_POO_2/Partida.h
 
 /home/piero/Documents/Proyecto_POO_2/main.cpp
 iostream
@@ -72,6 +46,10 @@ ctime
 cstdlib
 -
 fstream
+-
+SDL/SDL.h
+-
+SDL/SDL_mixer.h
 -
 Juego.h
 /home/piero/Documents/Proyecto_POO_2/Juego.h

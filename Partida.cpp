@@ -83,7 +83,7 @@ char Partida::mostrarPantalla_Volveraintentar(int perdido) { //Pantalla de volve
 }
 
 void Partida::crearRanking() { //Inicializa el archivo ranking
-    imprimirRanking("../ranking.txt",Ranking,std::ios::out); //Se establece la ruta, el objeto archivo y el modo de apertura
+    imprimirRanking("./ranking.txt",Ranking,std::ios::out); //Se establece la ruta, el objeto archivo y el modo de apertura
     Ranking << "\n\t\t **********RANKING DE JUGADORES**********\n\n"; //Cout inicial (titulo)
     Ranking << "\t\t PUNTAJE \t\t NOMBRE \t\t ESTADO\n\n"; //Títulos de la tabla de ranking
 }

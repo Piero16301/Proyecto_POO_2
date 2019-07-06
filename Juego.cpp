@@ -3,6 +3,7 @@
 #include <vector>
 #include <chrono>
 #include <random>
+#include <algorithm>
 
 int presionar_enter;
 
