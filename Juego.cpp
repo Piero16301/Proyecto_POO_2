@@ -1,5 +1,8 @@
 #include "Partida.h"
 #include "Juego.h"
+#include <vector>
+#include <chrono>
+#include <random>
 
 int presionar_enter;
 
@@ -129,7 +132,25 @@ void Juego::iniciarMatriz() { //Inicia nueva matriz
     //Generar 2 pares ordenados randoms diferentes para el tablero
     int x1 = 0, y1 = 0, x2 = 0, y2 = 0;
     //Verificar que las 2 posiciones del tablero sean diferentes y random
-    while (true) {
+    std::vector<int> numbers_x;
+    std::vector<int> numbers_y;
+    for(int i=0; i<4; i++){
+        numbers_x.push_back(i);
+    }
+    for(int i=0; i<4; i++){
+        numbers_y.push_back(i);
+    }
+    unsigned seed_x = std::chrono::system_clock::now().time_since_epoch().count();
+    unsigned seed_y = std::chrono::system_clock::now().time_since_epoch().count();
+    std::shuffle(numbers_x.begin(), numbers_x.end(), std::default_random_engine(seed_x));
+    std::shuffle(numbers_y.begin(), numbers_y.end(), std::default_random_engine(seed_y));
+    x1 = numbers_x[0];
+    x2 = numbers_x[1];
+    y1 = numbers_y[0];
+    y2 = numbers_y[1];
+    //std::cout << "x1:" << x1 << " y1:" << y1 << std::endl;
+    //std::cout << "x2:" << x2 << " y2:" << y2 << std::endl;
+    /*while (true) {
         x1 = rand() % 4;
         y1 = rand() % 4;
         x2 = rand() % 4;
@@ -151,6 +172,7 @@ void Juego::iniciarMatriz() { //Inicia nueva matriz
             break;
         }
     }
+    std::cout << "old way:" << x1 << " " << x2;*/
     // Asignamos del valor 2 en dos posiciones diferentes y random del tablero
     matriz_actual[x1][y1] = 2;
     matriz_actual[x2][y2] = 2;
