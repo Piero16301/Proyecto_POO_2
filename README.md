@@ -7,7 +7,7 @@
 * Tipo abstracto de datos
 * Libreria estandar C++
 
-## Diagram Architecture:
+## Diagrama de Flujo:
 ![](DiagramaDeFlujo.png)
 
 ## Concepto:
